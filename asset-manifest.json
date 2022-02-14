@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Today-Calendar/static/css/main.3a7c2c52.css",
+    "main.js": "/Today-Calendar/static/js/main.a3246635.js",
+    "static/js/787.42b4e037.chunk.js": "/Today-Calendar/static/js/787.42b4e037.chunk.js",
+    "index.html": "/Today-Calendar/index.html",
+    "main.3a7c2c52.css.map": "/Today-Calendar/static/css/main.3a7c2c52.css.map",
+    "main.a3246635.js.map": "/Today-Calendar/static/js/main.a3246635.js.map",
+    "787.42b4e037.chunk.js.map": "/Today-Calendar/static/js/787.42b4e037.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a7c2c52.css",
+    "static/js/main.a3246635.js"
+  ]
+}
