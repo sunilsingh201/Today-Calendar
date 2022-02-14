@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.init-home{
+  height: 100vh;
+  width: 100vw;
+  background-color:#0B0C08;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items:center ;
+  flex-direction:column;
 }
-
-.App-link {
-  color: #61dafb;
+.init-sub{
+  height: 280px;
+  width: 350px;
+  background-color:#121717;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-direction:column;
+  border-radius: 8px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.init-sub:hover{
+  transform: scale(1.2);
+  transition: 0.8s;
+}
+.init-time{
+  font-size: 35px;
+}
+.init-other{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-direction:row;
+}
+.init-time,.init-date,.init-month,.init-day{
+  font-weight: 600;
+  color: #fff;
+}
+.init-day{
+  margin-right: 10px;
+}
+.init-date{
+  margin:0 5px 0 0;
+}
+.alert{
+  margin-top: 30px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 3px;
+  opacity: 0.3;
 }
